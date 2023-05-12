@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  margin: 20;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+
+  border: 5px double pink;
+  padding : 20px 80px
+}
+
+h1 {
+  color: #333;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#timer div {
+  margin: 0 15px;
+}
+
+#timer div span {
+  display: block;
+  font-size: 30px;
+  color: #333;
+}
+
+.smalltext {
+  font-size: 14px;
+  color: #777;
+
+}
